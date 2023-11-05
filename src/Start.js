@@ -5,7 +5,6 @@ function Start() {
     return(
         <div>
 
-      
         <Outlet />
         </div>
     );

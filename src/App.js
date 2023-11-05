@@ -6,6 +6,7 @@ import Qone from './Qone';
 import Qtwo from './Qtwo';
 import Qthree from './Qthree';
 import Result from './Result';
+import StartPage from './StartPage'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="Qtwo" element={<Qtwo />} />
           <Route path="Qthree" element={<Qthree />} />
           <Route path="Result" element={<Result />} />
+          <Route path="StartPage" element={<StartPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,58 @@
+.Qone-header {
+    padding: 0px;
+    text-align: center;
+    background: #05314D;
+    color: white;
+    font-size: 30px;
+}
+
+.Qone-leftSide {
+    display: inline-flex;
+}
+
+
+.Qone-logo {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Qone-buttonStyle {
+    width: 288px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #05314D;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    margin: 50px;
+}
+
+.Qone-headerText {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.Qone-buttonText {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Qone-inputBox {
+    margin-left: 560px;
+    /* margin-top: 50px; */
+    width: 400px;
+    height: 53px;
+}

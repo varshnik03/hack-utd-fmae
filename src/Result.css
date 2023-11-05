@@ -1,0 +1,87 @@
+.StartPage {
+    align-items: center;
+    background-color: #DFEFFF;
+}
+
+.StartPage-suggestion{
+    align-items:left;
+    position: fixed;
+    margin-left: 50px;
+}
+
+.StartPage-header {
+    padding: 25px;
+    text-align: center;
+    background: #05314D;
+    color: white;
+    font-size: 30px;
+}
+
+.StartPage-logo {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.StartPage-headerText {
+    /* width: 500px; */
+    width:fit-content;
+    height: 100px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: PT Serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.StartPage-image {
+    float: left;
+    margin: 125px 15px 0 100px;
+}
+
+.StartPage-text {
+    float: left;
+    margin: 125px 0 0 50px;
+}
+
+.StartPage-body {
+    width: 568px;
+    color: #000;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.StartPage-inputBox {
+    margin-left: 93px;
+    margin-top: 50px;
+    width: 400px;
+    height: 53px;
+}
+
+.StartPage-buttonStyle {
+    width: 288px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #05314D;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    margin: 50px;
+}
+
+.StartPage-buttonText {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

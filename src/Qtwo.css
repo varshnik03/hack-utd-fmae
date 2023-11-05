@@ -1,0 +1,57 @@
+.Qtwo-header {
+    padding: 0px;
+    text-align: center;
+    background: #05314D;
+    color: white;
+    font-size: 30px;
+}
+
+.Qtwo-leftSide {
+    display: inline-flex;
+}
+
+.Qtwo-logo {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.Qtwo-buttonStyle {
+    width: 288px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #05314D;
+    box-shadow: 0px 4px 6px 0px rgba(62, 62, 62, 0.25);
+    margin: 50px;
+}
+
+.Qtwo-headerText {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.Qtwo-buttonText {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Qtwo-inputBox {
+    margin-left: 140px;
+    /* margin-top: 50px; */
+    width: 400px;
+    height: 53px;
+}
