@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Start from './Start';
+import Qone from './Qone';
+import Qtwo from './Qtwo';
+import Qthree from './Qthree';
+import Result from './Result';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Start />}>
+          <Route path="Qone" element={<Qone />} />
+          <Route path="Qtwo" element={<Qtwo />} />
+          <Route path="Qthree" element={<Qthree />} />
+          <Route path="Result" element={<Result />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
     </div>
   );
 }
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 
 export default App;
